@@ -5,6 +5,7 @@ include 'includes/Mic.class.php';
 include 'includes/Database.class.php';
 include 'includes/User.class.php';
 include 'includes/Session.class.php';
+include 'includes/UserSession.class.php';
 
 global $__site_config;
 $__site_config = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/../appconfig.json');
